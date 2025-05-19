@@ -1799,7 +1799,7 @@
                 <key>ConsoleAttributes</key>
                 <integer>0</integer>
                 <key>HibernateMode</key>
-                <string>None</string>
+                <string>NVRAM</string>
                 <key>HibernateSkipsPicker</key>
                 <true/>
                 <key>HideAuxiliary</key>
@@ -1828,7 +1828,7 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <true/>
+                <false/>
                 <key>ApplePanic</key>
                 <true/>
                 <key>DisableWatchDog</key>
@@ -1842,7 +1842,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>67</integer>
+                <integer>0</integer>
             </dict>
             <key>Entries</key>
             <array>
@@ -1960,7 +1960,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>-v darkwake=0 keepsyms=1 swd_panic=1 watchdog=0 igfxonln=1 agdpmod=vit9696 -vi2c-force-polling -igfxblr -igfxblt TSC_sync_margin=0 -wegnoegpu igfxfw=2</string>
+                    <string>swd_panic=1 keepsyms=1 watchdog=0 darkwake=0 igfxonln=1 agdpmod=vit9696 -vi2c-force-polling -igfxblr -igfxblt -wegnoegpu igfxfw=2 TSC_sync_margin=0</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -2017,9 +2017,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,3</string>
                 <key>SystemSerialNumber</key>
-                <string>C02DMKZABCDF</string>
+                <string>C02DMKZAP3XY</string>
                 <key>SystemUUID</key>
-                <string>5E8ED7B7-ABCD-EFHG-84A8-2C1B20A253E8</string>
+                <string>5E8ED7B7-D299-4BCD-84A8-2C1B20A253E8</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
